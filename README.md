@@ -1,6 +1,6 @@
 # Initial Configuration Script for Rails Development
 
-This README explains the `config_inicial.sh` script, which sets up a new machine for Ruby on Rails development and customizes the terminal.
+This README explains the `initial_config.sh` script, which sets up a new machine for Ruby on Rails development and customizes the terminal.
 
 ## Script Overview
 
@@ -92,9 +92,9 @@ starship preset nerd-font-symbols -o ~/.config/starship.toml
 
 To use this script:
 
-1. Save it as `config_inicial.sh`
-2. Make it executable: `chmod +x config_inicial.sh`
-3. Run it: `./config_inicial.sh`
+1. Save it as `initial_config.sh`
+2. Make it executable: `chmod +x initial_config.sh`
+3. Run it: `./initial_config.sh`
 
 Note: You may need to restart your terminal or run `source ~/.bashrc` after the script completes to apply all changes.
 
