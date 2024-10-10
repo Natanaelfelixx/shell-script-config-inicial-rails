@@ -1,4 +1,4 @@
-	sudo apt-get update
+sudo apt-get update
 sudo apt-get upgrade
 
 # Instalação do asdf
@@ -72,6 +72,9 @@ EOF
 # Instalando o vim-plug para plugins
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# Instalação do Docker
+curl -fsSL https://get.docker.com/ | sh
 
 echo "Script atualizado e completo! 🚀"
 
